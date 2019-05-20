@@ -1,0 +1,586 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(27, 40, 54);
+}
+
+
+
+
+/* スマホサイズ */
+@media all and (min-width: 480px) {
+
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  .header .twitter_icon {
+    color: rgb(27, 149, 224);
+    font-size: 2.5em;
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+
+
+
+  .message h1 {
+    font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 18px;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-left: auto;
+    line-height: 1.3em;
+    width: 380px;
+    height: 72px;
+
+  }
+
+
+
+  .main {
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+
+  .main p {
+    margin-top: 55px;
+    margin-bottom: 14px;
+  }
+
+  .top-account-btn {
+    width: 380px;
+    height: 37px;
+        color: #fff;
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration:none;
+        display: block;
+        text-align:center;
+        background-color: rgb(27, 149, 224);
+        border-radius: 25px;
+        line-height: 2.84615385;
+    }
+
+    .top-log-in {
+      color: rgb(27, 149, 224);
+      width:380px;
+      height: 37px;
+      font-size:13px;
+      font-weight: bold;
+      text-decoration: none;
+      display:block;
+      text-align:center;
+      background-color: rgb(27, 40, 54);
+      border-radius: 25px;
+      border: 1px solid rgb(27, 149, 224);
+      line-height: 2.84615385;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+
+
+    .main p {
+      color: #fff;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+
+
+
+    .sub {
+
+      height: 256px;
+      background-color: rgb(27, 149, 224);
+      position: relative;
+      overflow: hidden;
+}
+    }
+
+    .sub ul {
+      color: #fff;
+      width: 380px;
+      height: 200px;
+      margin-left: 55px;
+    }
+
+    .serch-icon {
+      margin-top: 30px;
+    }
+
+  .sub li {
+    font-weight: bold;
+    list-style: none;
+    font-size: 19px;
+    padding: 14px 14px 14px 0px;
+    line-height: 1.5em;
+    position: relative;
+  }
+
+  .twitter_back {
+
+    position: absolute;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 10em;
+    top: -10%;
+    left: 75%;
+  }
+
+  .bottom {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+
+  .bottom ul {
+  list-style-type: none;
+  text-align: center;
+  }
+
+  .bottom ul li {
+     display: inline-block;/*inline-blockにします*/
+
+  }
+
+  .bottom .bottom-account-btn {
+    width: 180px;
+    height: 37px;
+        color: #fff;
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration:none;
+        display: block;
+        text-align:center;
+        background-color: rgb(27, 149, 224);
+        border-radius: 25px;
+        line-height: 2.84615385;
+        margin-bottom: 5px;
+    }
+
+    .bottom .bottom-log-in {
+      color: rgb(27, 149, 224);
+      width: 180px;
+      height: 37px;
+      font-size:13px;
+      font-weight: bold;
+      text-decoration: none;
+      display:block;
+      text-align:center;
+      background-color: rgb(27, 40, 54);
+      border-radius: 25px;
+      border: 1px solid rgb(27, 149, 224);
+      line-height: 2.84615385;
+      margin-left: 15px;
+    }
+
+
+    .footer {
+      width: 100%;
+    }
+
+    .footer ul {
+      text-decoration-style: none;
+      padding-top: 25px;
+
+    }
+
+    .footer ul li {
+      display: inline-block;
+      text-decoration: none;
+      line-height: 1.5em;
+      margin-left: 20px;
+    }
+
+    .footer a {
+      text-decoration: none;
+      color: rgb(136,153,166);
+      font-size: 12px;
+
+    }
+
+
+  }/* スマホサイズ完成 */
+
+
+  /* タブレットサイズ */
+  @media all and  (min-width:768px) and ( max-width:1024px ) {
+      body {
+        width: 100%;
+        height: 100%;
+      }
+      .right {
+        width: 50%;
+        float: right;
+
+      }
+
+        .header .twitter_icon {
+          color: rgb(27, 149, 224);
+          font-size: 2.5em;
+          margin-top: 15px;
+          margin-left: 1000px;
+
+        }
+
+
+
+        .message h1 {
+          font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+          color: #fff;
+          font-weight: bold;
+          font-size: 28px;
+          margin-top: 18px;
+          margin-bottom: 35px;
+          margin-left: 50px;
+          line-height: 1.3em;
+          width: 380px;
+          height: 72px;
+        }
+
+
+        .main {
+          position: relative;
+          font-size: 15px;
+          font-weight: bold;
+          margin-left: 50px;
+        }
+
+        .main p {
+          margin-top: 55px;
+          margin-bottom: 14px;
+        }
+
+        .top-account-btn {
+          width: 380px;
+          height: 37px;
+              color: #fff;
+              font-size: 13px;
+              font-weight: bold;
+              text-decoration:none;
+              display: block;
+              text-align:center;
+              background-color: rgb(27, 149, 224);
+              border-radius: 25px;
+              line-height: 2.84615385;
+          }
+
+          .top-log-in {
+            color: rgb(27, 149, 224);
+            width:378px;
+            height: 35px;
+            font-size:13px;
+            font-weight: bold;
+            text-decoration: none;
+            display:block;
+            text-align:center;
+            background-color: rgb(27, 40, 54);
+            border-radius: 25px;
+            border: 1px solid rgb(27, 149, 224);
+            line-height: 2.84615385;
+            margin-top: 10px;
+
+            margin-bottom: 20px;
+          }
+
+
+
+          .main p {
+            color: #fff;
+            font-weight: bold;
+            font-size: 0.9em;
+          }
+
+          .sub {
+            width: 50%;
+            float: left;
+            background-color: rgb(27, 149, 224);
+            position: relative;
+          }
+
+          .sub ul {
+            color: #fff;
+            width: 380px;
+            height: 200px;
+            margin-left: 55px;
+          }
+
+          .serch-icon {
+            margin-top: 30px;
+          }
+
+        .sub li {
+          font-weight: bold;
+          list-style: none;
+          font-size: 19px;
+          padding: 14px 14px 14px 0px;
+          line-height: 1.5em;
+          position: relative;
+        }
+
+        .twitter_back {
+          position: absolute;
+
+          color: rgba(255, 255, 255, 0.6);
+          font-size: 10em;
+          top: -10%;
+          left: 75%;
+        }
+
+        .footer {
+          width: 100%;
+        }
+
+        .footer ul {
+          text-decoration-style: none;
+          padding-top: 25px;
+
+        }
+
+        .footer ul li {
+          display: inline-block;
+          text-decoration: none;
+          line-height: 1.5em;
+          margin-left: 20px;
+        }
+
+        .footer a {
+          text-decoration: none;
+          color: rgb(136,153,166);
+          font-size: 12px;
+
+        }
+
+  }  /* タブレットサイズ */
+
+/* PCサイズ */
+  @media all and (min-width: 1024px) {
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    .right {
+      width: 50%;
+      height: 665px;
+      float: right;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .center {
+      display: block;
+    }
+
+
+
+      .header .twitter_icon {
+        color: rgb(27, 149, 224);
+        font-size: 2.5em;
+        margin-top: 15px;
+        margin-left: 50px;
+      }
+
+
+
+      input[type="ID"] ,input[type="password"] {
+        width: 155px;
+        height: 35px;
+        background-color: #fff6e5;
+        border-radius: 3px;
+        border-color: #222 1px solid;
+        box-shadow: none;
+        color: #000;
+      }
+
+
+      input[type="password"] {
+        margin-left: 8px;
+      }
+
+      input[type="submit"] {
+        background-color: rgb(27, 40, 54);
+        width: 110px;
+        height: 35px;
+        border-radius: 100px;
+        border: 1px solid #1da1f2;
+        color: #1da1f2;
+        cursor: pointer;
+        margin-left: 8px;
+      }
+
+        a:hover input[type="submit"] {
+          background-color: #fff;
+        }
+
+
+
+
+      .message h1 {
+        font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        color: #fff;
+        font-weight: bold;
+        font-size: 28px;
+        margin-top: 18px;
+        margin-bottom: 35px;
+        margin-left: 50px;
+        line-height: 1.3em;
+        width: 380px;
+        height: 72px;
+      }
+
+
+      .main {
+        position: relative;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 50px;
+      }
+
+      .main p {
+        margin-top: 55px;
+        margin-bottom: 14px;
+      }
+
+      .top-account-btn {
+        width: 380px;
+        height: 37px;
+            color: #fff;
+            font-size: 13px;
+            font-weight: bold;
+            text-decoration:none;
+            display: block;
+            text-align:center;
+            background-color: rgb(27, 149, 224);
+            border-radius: 25px;
+            line-height: 2.84615385;
+
+        }
+
+        .top-account-btn a {
+              text-decoration: none;
+        }
+
+        .top-account-btn:hover {
+            color: #fff;
+            background-color: #027fff;
+        }
+
+
+        .top-log-in {
+          width:378px;
+          height: 35px;
+          font-size:13px;
+          font-weight: bold;
+          text-decoration: none;
+          display:block;
+          text-align:center;
+          background-color: rgb(27, 40, 54);
+          border-radius: 25px;
+          border: 1px solid rgb(27, 149, 224);
+          line-height: 2.84615385;
+          margin-top: 10px;
+          text-decoration: none;
+          margin-bottom: 20px;
+        }
+
+        .top-log-in a {
+          text-decoration: none;
+          color: rgb(27, 149, 224);
+        }
+
+         .top-log-in:hover {
+          text-decoration: none;
+          background-color: #fff;
+      }
+
+
+
+
+        .main p {
+          color: #fff;
+          font-weight: bold;
+          font-size: 0.9em;
+        }
+
+        .sub {
+          width: 50%;
+          height: 675px;
+          float: left;
+          background-color: rgb(27, 149, 224);
+          position: relative;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .sub ul {
+          color: #fff;
+          width: 380px;
+          height: 200px;
+          margin-left: 55px;
+           display: block;
+        }
+
+        .serch-icon {
+          margin-top: 30px;
+        }
+
+      .sub li {
+        font-weight: bold;
+        list-style: none;
+        font-size: 19px;
+        padding: 14px 14px 14px 0px;
+        line-height: 1.5em;
+        position: relative;
+      }
+
+      .twitter_back {
+        position: absolute;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 50em;
+        top: -30%;
+        left: 0%;
+      }
+
+      .bottom {
+        display: none!important;
+      }
+
+
+      .footer {
+        width: 100%;
+        clear: both;
+
+      }
+
+      .footer ul {
+        text-decoration-style: none;
+        padding-top: 14px;;
+
+      }
+
+      .footer ul li {
+        display: inline-block;
+        text-decoration: none;
+        line-height: 1.5em;
+        margin-left: 20px;
+      }
+
+      .footer a {
+        text-decoration: none;
+        color: rgb(136,153,166);
+        font-size: 12px;
+
+      }
+
+  }/* PCサイズ */

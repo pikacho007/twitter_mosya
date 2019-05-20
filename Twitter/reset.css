@@ -1,0 +1,23 @@
+html, body, h1, h2, ul, li, p, div, img, a, message {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  vertical-align:baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+header, footer, main,top-account-btn, top-log-in, sub, bottom, bottom-account-btn, bottom-log-in, message {
+  display:block;
+}
+body {
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+ul {
+  list-style: none;
+  list-style-type: none;
+}
